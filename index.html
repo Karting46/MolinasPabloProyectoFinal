@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KARTING SANTA FE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="karting.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#ubicacion">KARTING SANTA FE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselExampleCaptions">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a id="registrate" class="nav-link" href="#contacto">Registrate, así te informás de los Próximos
+              Eventos!!!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="row align-items-center hero">
+    <div class="col-lg-4 offset-lg-4">
+      <p>Bienvenidos a Karting Santa Fe</p>
+      <h1>Sé el Mejor Piloto!!!</h1>
+      <p>Si tu pasión es la adrenalina de la velocidad en la pista, entonces no dudes y acercate a nostoros, nos
+        encagaremos de enseñarte todo lo necesario para vos y tu kart para que llegues a los mas alto.</p>
+    </div>
+  </div>
+
+  <div id="menu" class="row may-3">
+
+    <div id="nosotros" class="col-md-3 espacio">
+      <h2>Nosotros</h2>
+      <ul class="quienessomos">
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#entrenamientofisico"><img height="200" width="300"
+              src="img\entrenamiento0.jpg" alt="">Entrenamiento Físico</a></li>
+
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#entrenamientoenpista1"><img height="200" width="300"
+              src="img\entrenamiento1.jpg" alt="">Entrenamiento en pista 1</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#entrenamientoenpista2"><img height="200" width="300"
+              src="img\entrenamiento2.jpg" alt="">Entrenamiento en pista 2</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#entrenamientoenpista3"><img height="200" width="300"
+              src="img\entrenamiento3.jpg" alt="">Entrenamiento en pista 3</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row col-md-3 offset-md-1">
+      <h2>Servicios</h2>
+      <ul class="quienessomos">
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#chasisnuevos"><img height="200" width="300"
+              src="img\reparando.jpg" alt="">Chasis Nuevos</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#alineaciongeneral"><img height="200" width="300"
+              src="img\reparando1.jpg" alt="">Alineación General</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#controldechasisenplana"><img height="200" width="300"
+              src="img\reparando3.jpg" alt="">Control de Chasis en Plana</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#motoristas"><img height="200" width="300"
+              src="img\reparando6.jpg" alt="">Motoristas</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row col-md-3 offset-md-1">
+      <h2>Productos</h2>
+      <ul class="quienessomos">
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#buzos"><img height="200" width="300" src="img\ropa.jpg"
+              alt="">Buzos</a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#cascos"><img height="200" width="300"
+              src="img\ropa2.jpg" alt="">Cascos</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#guantes"><img height="200" width="300"
+              src="img\ropa3.jpg" alt="">Guantes</a>
+        </li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#protectorservical"><img height="200" width="300"
+              src="img\ropa4.jpg" alt="">Protector Cervical</a>
+        </li>
+      </ul>
+    </div>
+    <!--inicio de los primero cuatro modal-->
+    <div class="modal fade" id="entrenamientofisico" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Entrenamiento Físico:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p> Estar en estado es un punto clave a la hora de manejar un kart, por eso contamos con profesores
+              especializados en edución física, puntualmente nos enfocamos a las distintas reacciones y reflejos,
+              fundamental a la hora de conducir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="entrenamientoenpista1" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Entrenamiento en pista 1:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              En ésta primera etapa, explicamos el manejo del karting en general, métodos de aceleración y frenado, giro
+              del volante, movimientos del cuerpo, palanca de embrague y encendido del motor.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="entrenamientoenpista2" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Entrenamiento en pista 2:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              En ésta etapa explicamos los diferentes circuitos, sus formas, nombre de curvas, largada, lugares a
+              respetar (como zona de box), y muy importante los distintos tipos de banderas y su significado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="entrenamientoenpista3" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Entrenamiento en pista 3:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Y ahora llegó la hora de manejo, en ésta epata te vamos a enseñar las partes de la pista, donde está la
+              "cuerda" de tránsito, donde se hacen los sobrepasos, donde se frena y donde se acelera.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--segunda columan de modal-->
+    <div class="modal fade" id="chasisnuevos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Chasis Nuevos:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Sea para ciruitos de tierra, asfalto y mixto, disponemos de fábricación propia, sólo devemos saber a cual
+              apuntas vos. Garantizamos con 36 meses nuestros producos, brindando un servicio post venta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="alineaciongeneral" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Alineción en General:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Los karting sufren un desgaste con el paso del tiempo, por ello hacemos exaustivos controles,
+              aliención de ejes traseros, columna de dirección y puntas de eje mediante alineadoras láser.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="controldechasisenplana" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Control de Alineación en Plana:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Punto fundamental a la hora de mojorar tiempos en la pista, acá el chasis es sometido a rigurosas pruebas
+              sobre la plana, dejándolo después de este proceso como de fábrica.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="motoristas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Motoristas:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Contando con un banco de pruebas computarizado, controlamos el total del funcionamiento y sobre todo el
+              rendimiento del
+              motor, damos consejos para relacionar en carrera y sobre los fuídos que éste mismo lleva.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--los ultimos cuatro modal-->
+    <div class="modal fade" id="buzos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Buzos:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              El buzo o mono como lo suelen llamar, nos proteje de muchas cosas, como el calor del hambiente, del motor
+              y hasta de las llamas en caso de incendio, tamtién así de quemaduras, golpes con piedras u otros objetos
+              de salen despedidios de los otros karting en la carrera y al ser completamente cerrados nos ayuda a que no
+              nos entre nada en plena carrera y nos obligue a hacer maniobras peligrosas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="cascos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Cascos:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              El de mayor importancia, NUNCA se debe pilotear un karting ni ningún otro dispositivo de carrera si éste
+              elemento. Lo tenemos de distintos tamaños y especialidades, todos cumplen con las normás de seguridad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="guantes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Guantes:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Accesorio fundamental para el agarre del volante, devido la la fuerza que se hace al manjear no se nos
+              pueden patinar las manos, también es importa para no sufrir quemaduras.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="protectorservical" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Protector Cervical:</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Si de seguridad se traba es el segundo elemento mas importante, ya que la comumna vertebral es vital para
+              las personas, mediante estos accesorios brindamos seguridad al manejar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+
+    <!--cierra, nosotros, servicios y productos-->
+
+    <!-- ubicación-->
+
+    <div id="ubicacion" class="row align-items-center py-4 container-fluid espacio">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Ubicación</h2>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d763.3003801473503!2d-60.73508199834956!3d-31.663398289575476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a982104d80c5%3A0xd23c87a3f3a0a040!2sAutomovil%20Club%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1680525772306!5m2!1ses-419!2sar"
+            style="border:0;" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!--cierra Ubicación-->
+
+    <!--inicio del formulario de contacto-->
+    <div id="contacto" class="row align-items-center py-4 container-fluid espacio">
+      <div class="col-lg-8 offset-lg-2">
+        <h2>Registrate</h2>
+        
+        <form action="/" method="post">
+      
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Apellido y Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre">
+          </div>
+          <div class="mb-3">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccion" name="direccion">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="text" class="form-control" id="direccion" name="email">
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="telefono" name="telefono">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--fin del formulario de contacto-->
+
+    <!--comienzo de testimonios -->
+
+    <div class="col-md-8 offset-md-2 espacio">
+      <div class="rounded py-5 testimonios">
+        <h2 class="text-center">Testimonios:</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonio">
+                <h5>Exelente atención, sobre todo en la puntualidad para entregar los trabajos.</h5>
+                <p>Germán Alvarez, Teodelina Santa Fe.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>Muy buenos productos, recomendable.</h5>
+                <p>Gisela Cyan, Avellaneda Sanfa Fe.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>Mucha paciencia con los alumnos, muy buenas técnicas de enseñanza.</h5>
+                <p>Rafaél, San Rafael Mendoza.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>Excelente servicio en los motores, pude mejor mucho mi tiempo de vuelta, gracias.</h5>
+                <p>Julio. Santa Fe capital.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>Ropa de muy buena calidad, recomendable.</h5>
+                <p>Daniel, Paraná Entre Ríos.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonio">
+                <h5>Hola, en éste momento estoy corriendo en Fiat 600, pero mi inicio fue en karting y acá encontré una
+                  excelente base, muchas gracias.</h5>
+                <p>Emanuel, Paraná Entre Ríos.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">AVANZAR</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">RETROCEDER</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="text-center">
+      Sitio creado por: Pablo Molinas 2023.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
